@@ -1,9 +1,0 @@
-[submodule "ARIMA"]
-	path = ARIMA
-	url = https://github.com/ahtshamzafar1/ARIMA.git
-[submodule "Interactive-Plot-For-Time-Series-Data"]
-	path = Interactive-Plot-For-Time-Series-Data
-	url = https://github.com/ahtshamzafar1/Interactive-Plot-For-Time-Series-Data.git
-[submodule "Stationarity-Decomposition-Periodicity"]
-	path = Stationarity-Decomposition-Periodicity
-	url = https://github.com/ahtshamzafar1/Stationarity-Decomposition-Periodicity.git
