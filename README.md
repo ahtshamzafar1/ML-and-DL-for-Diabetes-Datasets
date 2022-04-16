@@ -13,3 +13,11 @@ The Notebook contains multiple attributes including following:
 5. To Analyze if there exists some periodicity in data, and what interval the periodicity is valid. 
 
 # ARIMA
+The python note is a complete workflow for implementation of ARIMA Model. 
+The Components of notebook include:
+1. Import Data
+2. Clean and convert data
+3. Visualize data
+4. Analyze data for different dataframe sizes (Stationarity - Seasonality - Periodicity)
+5. Apply ARIMA on different data frames. Arima parameters are estimated using ACF and PACF graphs.
+6. Estimate error metrics for original and predicted data. Mean Absolute Error (MAE) - Mean Squared Error (MSE)
