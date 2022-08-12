@@ -18,9 +18,8 @@ The Components of notebook include:
 1. Import Data
 2. Clean and convert data
 3. Visualize data
-4. Analyze data for different dataframe sizes (Stationarity - Seasonality - Periodicity)
-5. Apply ARIMA on different data frames. Arima parameters are estimated using ACF and PACF graphs.
-6. Estimate error metrics for original and predicted data. Mean Absolute Error (MAE) - Mean Squared Error (MSE)
+4. Fit ARIMA Model with specific P,Q,D values as input parameters. 
+5. Estimate error metrics for original and predicted data. Mean Absolute Error (MAE) - Root Mean Squared Error (RMSE)
 
 # SVM - Support Vector Regressor
 The python note is a complete workflow for modular implementation of SVR Model. It includes the following sections. 
@@ -58,3 +57,19 @@ The python note is a complete workflow for modular implementation of Random fore
 8.  Evaluate 
 9.  Plot expected vs predicted
 
+# LSTM
+LSTM is a neural netowrk model from deep learning. Long short-term memory (LSTM) is an artificial neural network used in the fields of artificial intelligence and deep learning. Unlike standard feedforward neural networks, LSTM has feedback connections. Such a recurrent neural network can process not only single data points (such as images), but also entire sequences of data (such as speech or video). For example, LSTM is applicable to tasks such as unsegmented, connected handwriting recognition, speech recognition, machine translation, robot control, video games, and healthcare. LSTM has become the most cited neural network of the 20th century.
+
+The notebook contains a detailed pipeline for on the go reproducibility of the code itself. Functions included are:
+1. Import Libraries
+2. Functions for LSTM forecasting:
+   -  series_to_supervised
+   - create a differenced series
+   - transform series into train and test sets for supervised learning
+   - fit an LSTM network to training data
+   - make one forecast with an LSTM,
+   - evaluate the persistence model
+   - invert differenced forecast
+   - inverse data transform on forecasts
+   - evaluate the RMSE for each forecast time step
+   - plot the forecasts in the context of the original dataset
