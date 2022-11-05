@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Zafar
+    given-names: Ahtsham
+    orcid: https://orcid.org/0000-0001-9691-2183
+title: "Time Series Analysis and Modeling for Glucose Profiles"
+version: 2.0.4
+date-released: 2022-08-01
