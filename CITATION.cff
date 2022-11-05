@@ -5,5 +5,7 @@ authors:
     given-names: Ahtsham
     orcid: https://orcid.org/0000-0001-9691-2183
 title: "Time Series Analysis and Modeling for Glucose Profiles"
-version: 2.0.4
+version: 1.0
+doi: 10.5072/zenodo.1126591
 date-released: 2022-08-01
+
