@@ -1,4 +1,4 @@
-# Time Series Data Analysis
+# ML and DL for Diabetes Datasets
  
 # Interactable plots 
 The python notebook demonstrates a better visualization technique for on-the-go interation with the data, as compared to fixed non-moveable plots.
@@ -63,7 +63,7 @@ LSTM is a neural netowrk model from deep learning. Long short-term memory (LSTM)
 The notebook contains a detailed pipeline for on the go reproducibility of the code itself. Functions included are:
 1. Import Libraries
 2. Functions for LSTM forecasting:
-   -  series_to_supervised
+   - series_to_supervised
    - create a differenced series
    - transform series into train and test sets for supervised learning
    - fit an LSTM network to training data
